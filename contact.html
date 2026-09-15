@@ -1,69 +1,67 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <!-- Assignment #1 — HTML & CSS Basics | Team: [Название команды] | Group: [Группа] -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cozy Corner Cafe — Контакты</title>
+  <title>Satti Cafe - Contact</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <header id="main-header">
-    <h1>Свяжитесь с нами</h1>
-    <p>Есть вопрос или хотите забронировать столик? Напишите нам!</p>
+    <h1>Contact Satti Cafe</h1>
+    <p>Contact us or book a table</p>
   </header>
 
   <nav class="nav-menu">
-    <a href="index.html">Главная</a>
-    <a href="menu.html">Меню</a>
-    <a href="about.html">О нас</a>
-    <a href="team.html">Команда</a>
-    <a href="gallery.html">Галерея</a>
-    <a href="contact.html">Контакты</a>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Team</a>
   </nav>
 
   <main class="container">
+
     <section class="card">
-      <h2>Наши контакты</h2>
+      <h2>Our Contacts</h2>
+
       <ul>
-        <li>Адрес: ул. Центральная, 12</li>
-        <li>Телефон: +7 (700) 123-45-67</li>
-        <li>Часы работы: 8:00 – 22:00, ежедневно</li>
+        <li>Address: Mangilik El 16/1, Astana</li>
+        <li>Phone: +7 777 777 77 77</li>
+        <li>Working hours: 10:00 - 24:00</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>Форма обратной связи</h2>
+      <h2>Table Reservation</h2>
+
       <form id="contact-form" action="#" method="post">
 
-        <label for="name">Имя</label>
-        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+7 777 777 77 77" required>
 
-        <label for="visit-time">Удобное время для визита</label>
-        <select id="visit-time" name="visit-time">
-          <option value="morning">Утро</option>
-          <option value="afternoon">День</option>
-          <option value="evening">Вечер</option>
-        </select>
+        
+        <label for="visit-time">Choose Time</label>
+        <input type="text" id="visit-time" name="visit-time" placeholder="Write your preferred time" required>
 
-        <label for="fav-color">Любимый цвет интерьера</label>
-        <input type="color" id="fav-color" name="fav-color" value="#6f4e37">
+        <label for="message">Additional Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
 
-        <label for="message">Сообщение</label>
-        <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение..."></textarea>
+        <button type="submit">Book a Table</button>
 
-        <button type="submit">Отправить</button>
       </form>
     </section>
+
   </main>
 
   <footer id="main-footer">
-    <p>Команда: Имя Фамилия 1, Имя Фамилия 2, Имя Фамилия 3</p>
-    <p>&copy; 2026 Cozy Corner Cafe. Учебный проект.</p>
+    <p>Team: Dauletqali Boranbay, Adilkhan batyrbek, Alibek Kantarbay</p>
+    <p>&copy; 2026 Satti Cafe. Student project.</p>
   </footer>
 
 </body>
