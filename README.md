@@ -1,50 +1,51 @@
-# Cozy Corner Cafe — командный сайт (Assignment #1)
+# Satti Cafe Website
 
-## Структура проекта
-```
-cafe-website/
-├── index.html      → Участник A
-├── menu.html       → Участник A (таблица меню)
-├── about.html      → Участник B
-├── team.html       → Участник B (карточки всех троих — каждый дописывает свою)
-├── gallery.html     → Участник C
-├── contact.html    → Участник C (форма обратной связи)
-├── css/style.css    → общий файл, каждый добавляет CSS в свой раздел внизу
-└── images/          → сюда каждый кладёт свои картинки
-```
+This is a simple HTML and CSS website for **Satti Cafe** in Astana.
 
-## Порядок работы с Git
+## Team
 
-1. Один человек создаёт репозиторий на GitHub и добавляет остальных двух
-   как Collaborators (Settings → Collaborators).
-2. Загружает этот стартовый скелет (все файлы уже содержат заготовку) в ветку `main`.
-3. Каждый участник клонирует репозиторий и создаёт свою ветку:
-   ```bash
-   git clone <ссылка>
-   cd cafe-website
-   git checkout -b feature/имя-фамилия
-   ```
-4. Работает только над своими файлами (см. таблицу выше) + добавляет свой CSS
-   в конец `style.css` под своим комментарием-разделом.
-5. Коммитит и пушит:
-   ```bash
-   git add .
-   git commit -m "Добавил контент и стили для menu.html"
-   git push origin feature/имя-фамилия
-   ```
-6. На GitHub создаёт Pull Request в `main`. Кто-то один проверяет и мержит.
-7. Перед своим PR стоит сделать `git pull origin main`, чтобы подтянуть
-   изменения коллег и избежать конфликтов, особенно в `style.css`.
-8. После того как все PR смержены — включить GitHub Pages:
-   Settings → Pages → Source: `main` / root.
+* Batyrbek Adilkhan - Home, Menu
+* Alibek Kantarbay - Contact, Team
+* Dauletkali Boranbay - About Us, Gallery
 
-## Чек-лист перед сдачей
-- [ ] Заменить плейсхолдеры "[Название команды]" и "[Группа]" в комментариях `<head>`
-- [ ] Заменить "Имя Фамилия 1/2/3" реальными именами на всех страницах (footer + team.html)
-- [ ] Добавить настоящие фото/картинки в папку `images/` (сейчас пути — заглушки)
-- [ ] Проверить, что все ссылки навигации работают на живом GitHub Pages URL
-- [ ] Каждый участник добавил свой блок "About Me" на одну из СВОИХ страниц
-      (можно расширить team.html — каждый пишет и коммитит свою карточку,
-      либо добавить короткое био прямо на menu.html / gallery.html)
-- [ ] Сделать скриншоты каждой страницы для отчёта (.docx)
-- [ ] Указать в отчёте live-ссылку на GitHub Pages
+## Pages
+
+The website has 6 pages:
+
+* Home
+* Menu
+* About Us
+* Gallery
+* Contact
+* Team
+
+## Technologies
+
+* HTML
+* CSS
+
+## Features
+
+* Cafe information
+* Food and drinks menu
+* Photo gallery
+* Contact and table reservation form
+* Team members page
+* Responsive layout
+
+## Location
+
+**Satti Cafe**
+Mangilik El 16/1, Astana, Kazakhstan
+
+## How to Open
+
+Download or clone the repository and open `index.html` in a web browser.
+
+The website uses one shared CSS file:
+
+`css/style.css`
+
+## Project
+
+This website was created as part of **Assignment #1 - HTML & CSS Basics**.
