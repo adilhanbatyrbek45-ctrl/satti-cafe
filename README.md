@@ -49,3 +49,17 @@ The website uses one shared CSS file:
 ## Project
 
 This website was created as part of **Assignment #1 - HTML & CSS Basics**.
+
+
+
+
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>    
+</ol>
+
+
+<table>
+<tr>  <td></tr>
+</table>

@@ -1,72 +1,79 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <!-- Assignment #1 — HTML & CSS Basics | Team: [Team Name] | Group: [Group] -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Satti Cafe — Our Team</title>
+  <title>Satti Cafe - Our Team</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-grid">
 
   <header id="main-header">
-    <h1>Our Team</h1>
-    <p>The people who worked on the Satti Cafe website</p>
+    <div class="logo-container">
+      <img src="images/Letnik.jpg" alt="Satti Cafe Logo" class="logo-img">
+      <div class="logo-text">
+        <h1>Our Team</h1>
+        <p>The people who worked on the Satti Cafe website</p>
+      </div>
+    </div>
+    
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="team.html" class="active">Team</a>
+    </nav>
   </header>
 
-  <nav class="nav-menu">
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-    <a href="team.html">Team</a>
-  </nav>
+  <aside class="sidebar">
+    <h3>Team Project</h3>
+    <p>Assignment #2: Flexbox & Grid</p>
+  </aside>
 
   <main class="container">
 
-<section class="card">
-  <img src="images/Adok.jpeg" alt="Photo of Batyrbek Adilkhan" class="profile-img">
-  <h2>Batyrbek Adilkhan</h2>
-  <h3>Pages: Home + Menu</h3>
-  <p>
-    A short introduction: I am interested in IT and programming.
-    I enjoyed working on the cafe website and creating the
-    Home and Menu pages.
-  </p>
-  <ul>
-    <li>Favorite tool: VS Code</li>
-  </ul>
-</section>
+    <section class="card">
+      <img src="images/Adok.jpeg" alt="Batyrbek Adilkhan" class="profile-img">
+      <h2>Batyrbek Adilkhan</h2>
+      <h3>Pages: Home + Menu</h3>
+      <p>
+        I am interested in IT and programming.
+        I enjoyed working on the cafe website and creating the
+        Home and Menu pages.
+      </p>
+      <ul>
+        <li>Favorite tool: VS Code</li>
+      </ul>
+    </section>
 
-<section class="card">
-  <img src="images/Other.png" alt="Photo of Alibek Kantarbay" class="profile-img">
-  <h2>Alibek Kantarbay</h2>
-  <h3>Pages: Contact + Team</h3>
-  <p>
-    A short introduction: I am interested in technology and
-    enjoy working on different tasks. I liked working on the
-    Contact and Team pages.
-  </p>
-  <ul>
-    <li>Favorite tool: Screwdriver</li>
-  </ul>
-</section>
+    <section class="card">
+      <img src="images/Other.png" alt="Alibek Kantarbay" class="profile-img">
+      <h2>Alibek Kantarbay</h2>
+      <h3>Pages: Contact + Team</h3>
+      <p>
+        I am interested in technology and enjoy working on different tasks.
+        I liked working on the Contact and Team pages.
+      </p>
+      <ul>
+        <li>Favorite tool: Screwdriver</li>
+      </ul>
+    </section>
 
-<section class="card">
-  <img src="images/Other.png" alt="Photo of Dauletkali Boranbay" class="profile-img">
-  <h2>Dauletkali Boranbay</h2>
-  <h3>Pages: About Us + Gallery</h3>
-  <p>
-    A short introduction: I am interested in IT and web development.
-    I enjoyed working on the information about the cafe and
-    adding photos to the Gallery page.
-  </p>
-  <ul>
-    <li>Favorite tool: Dombra</li>
-  </ul>
-</section>
+    <section class="card">
+      <img src="images/Other.png" alt="Dauletkali Boranbay" class="profile-img">
+      <h2>Dauletkali Boranbay</h2>
+      <h3>Pages: About Us + Gallery</h3>
+      <p>
+        I am interested in IT and web development.
+        I enjoyed working on the information about the cafe and
+        adding photos to the Gallery page.
+      </p>
+      <ul>
+        <li>Favorite tool: Dombra</li>
+      </ul>
+    </section>
 
   </main>
 

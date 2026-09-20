@@ -6,28 +6,36 @@
   <title>Satti Cafe - Menu</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-grid">
 
   <header id="main-header">
-    <h1>Satti Cafe Menu</h1>
-    <p>Food and drinks for every taste</p>
+    <div class="logo-container">
+      <img src="images/Letnik.jpg" alt="Satti Cafe Logo" class="logo-img">
+      <div class="logo-text">
+        <h1>Satti Cafe</h1>
+        <p>Food and drinks for every taste</p>
+      </div>
+    </div>
+    
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="team.html">Team</a>
+    </nav>
   </header>
 
-  <nav class="nav-menu">
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-    <a href="team.html">Team</a>
-  </nav>
+  <aside class="sidebar">
+    <h3>Menu Categories</h3>
+    <p>Soups, Hot Dishes, Bruschetta, Pasta, Pizza, Desserts, Cocktails, Coffee, Lemonades, National Drinks.</p>
+  </aside>
 
   <main class="container">
-
     <section class="card">
       <h2>Food</h2>
-
-      <p>We offer a variety of dishes, from soups and hot dishes to pasta and desserts. Our menu is designed to satisfy every taste.</p>
+      <p>We offer a variety of dishes, from soups and hot dishes to pasta and desserts.</p>
 
       <table>
         <tr>
@@ -36,70 +44,60 @@
           <th>Category</th>
           <th>Price</th>
         </tr>
-
         <tr>
           <td>Tom Yum</td>
           <td>Spicy soup with shrimps</td>
           <td>Soup</td>
           <td>4100 ₸</td>
         </tr>
-
         <tr>
           <td>Kinuchi Ramen</td>
           <td>Ramen with chicken, kimchi and egg</td>
           <td>Soup</td>
           <td>5250 ₸</td>
         </tr>
-
         <tr>
           <td>Grilled Salmon</td>
-          <td>Grilled salmon with a simple side dish</td>
+          <td>Grilled salmon with side dish</td>
           <td>Hot Dish</td>
           <td>6450 ₸</td>
         </tr>
-
         <tr>
           <td>Ribeye Steak</td>
           <td>Beef ribeye steak</td>
           <td>Hot Dish</td>
           <td>12500 ₸</td>
         </tr>
-
         <tr>
           <td>Pilaf</td>
           <td>Rice with beef</td>
           <td>Hot Dish</td>
           <td>3650 ₸</td>
         </tr>
-
         <tr>
           <td>Manty</td>
           <td>Steamed dumplings with beef</td>
           <td>Hot Dish</td>
           <td>3450 ₸</td>
         </tr>
-
         <tr>
           <td>Avocado Bruschetta</td>
           <td>Ciabatta with avocado and vegetables</td>
           <td>Bruschetta</td>
           <td>2980 ₸</td>
         </tr>
-
         <tr>
           <td>Penne Salmon</td>
           <td>Pasta with salmon</td>
           <td>Pasta</td>
           <td>4650 ₸</td>
         </tr>
-
         <tr>
           <td>Margherita Pizza</td>
           <td>Pizza with tomato sauce and mozzarella</td>
           <td>Pizza</td>
           <td>3750 ₸</td>
         </tr>
-
         <tr>
           <td>Chocolate Fondant</td>
           <td>Warm chocolate cake</td>
@@ -111,7 +109,6 @@
 
     <section class="card">
       <h2>Drinks</h2>
-
       <table>
         <tr>
           <th>Name</th>
@@ -119,70 +116,60 @@
           <th>Category</th>
           <th>Price</th>
         </tr>
-
         <tr>
           <td>Aperol Spritz</td>
           <td>Classic aperitif cocktail</td>
           <td>Cocktail</td>
           <td>2830 ₸</td>
         </tr>
-
         <tr>
           <td>Mojito</td>
           <td>Mint and lime drink</td>
           <td>Cocktail</td>
           <td>2150 ₸</td>
         </tr>
-
         <tr>
           <td>Gintonic</td>
           <td>Gin with tonic water</td>
           <td>Cocktail</td>
           <td>2450 ₸</td>
         </tr>
-
         <tr>
           <td>Americano</td>
           <td>Black coffee</td>
           <td>Coffee</td>
           <td>950 ₸</td>
         </tr>
-
         <tr>
           <td>Cappuccino</td>
           <td>Coffee with milk foam</td>
           <td>Coffee</td>
           <td>1350 ₸</td>
         </tr>
-
         <tr>
           <td>Latte</td>
           <td>Espresso with steamed milk</td>
           <td>Coffee</td>
           <td>1490 ₸</td>
         </tr>
-
         <tr>
           <td>Mint-Lime Lemonade</td>
           <td>Fresh lemonade, 1000 ml</td>
           <td>Lemonade</td>
           <td>3000 ₸</td>
         </tr>
-
         <tr>
           <td>Moroccan Tea</td>
           <td>Herbal tea, 500 ml</td>
           <td>Tea</td>
           <td>2230 ₸</td>
         </tr>
-
         <tr>
           <td>Ayran</td>
           <td>Traditional milk drink, 200 ml</td>
           <td>National Drink</td>
           <td>850 ₸</td>
         </tr>
-
         <tr>
           <td>Qymyz</td>
           <td>Traditional horse milk drink, 200 ml</td>
@@ -191,11 +178,10 @@
         </tr>
       </table>
     </section>
-
   </main>
 
   <footer id="main-footer">
-    <p>Team: Adilkhan batyrbek, Dauletqali Boranbay, Alibek Kantarbay</p>
+    <p>Team: Adilkhan Batyrbek, Dauletqali Boranbay, Alibek Kantarbay</p>
     <p>&copy; 2026 Satti Cafe. Student project.</p>
   </footer>
 

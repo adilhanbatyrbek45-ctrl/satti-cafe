@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,21 +6,31 @@
   <title>Satti Cafe - Gallery</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-grid">
 
   <header id="main-header">
-    <h1>Satti Cafe Gallery</h1>
-    <p>Photos from our cafe</p>
+    <div class="logo-container">
+      <img src="images/Letnik.jpg" alt="Satti Cafe Logo" class="logo-img">
+      <div class="logo-text">
+        <h1>Satti Cafe Gallery</h1>
+        <p>Photos from our cafe</p>
+      </div>
+    </div>
+    
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="team.html">Team</a>
+    </nav>
   </header>
 
-  <nav class="nav-menu">
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-    <a href="team.html">Team</a>
-  </nav>
+  <aside class="sidebar">
+    <h3>Gallery Info</h3>
+    <p>Hover over images to see details.</p>
+  </aside>
 
   <main class="container">
 
@@ -29,34 +38,61 @@
       <h2>Photos of Satti Cafe</h2>
 
       <div class="gallery-grid">
-        <img src="images/Gallery-1.jpg">
-        <img src="images/Gallery-2.jpg">
-        <img src="images/Gallery-3.jpg">
-        <img src="images/Gallery-4.jpg">
-        <img src="images/Gallery-5.jpg">
-        <img src="images/Gallery-6.jpg">  
+        
+        <div class="gallery-item">
+          <img src="images/Gallery-1.jpg" alt="Terrace">
+          <div class="gallery-caption">Summer Terrace</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Gallery-2.jpg" alt="Seating">
+          <div class="gallery-caption">Satti Seating Area</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Gallery-3.jpg" alt="Dishes">
+          <div class="gallery-caption">Special Dishes</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Gallery-4.jpg" alt="Desserts">
+          <div class="gallery-caption">Tasty Desserts</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Gallery-5.jpg" alt="Brewery">
+          <div class="gallery-caption">Fresh BOZA Beer</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Gallery-6.jpg" alt="Drinks">
+          <div class="gallery-caption">Refreshing Drinks</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/letnik-vnutri.jpg" alt="Interior">
+          <div class="gallery-caption">Interior View</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Letnik.jpg" alt="Exterior">
+          <div class="gallery-caption">Main Entrance</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/Other.png" alt="Team Area">
+          <div class="gallery-caption">Beautiful Waiters</div>
+        </div>
 
       </div>
-    </section>
-
-    <section class="card">
-      <h2>What You Can See Here</h2>
-
-      <ul>
-        <li>Our second summer terrace</li>
-        <li>Many green plants</li>
-        <li>Tasty desserts</li>
-        <li>Beautiful food presentation</li>
-      </ul>
     </section>
 
   </main>
 
   <footer id="main-footer">
-    <p>Team: Alibek Kantarbay, Adilkhan batyrbek, Dauletqali Boranbay</p>
+    <p>Team: Alibek Kantarbay, Adilkhan Batyrbek, Dauletqali Boranbay</p>
     <p>&copy; 2026 Satti Cafe. Student project.</p>
   </footer>
 
 </body>
 </html>
-
