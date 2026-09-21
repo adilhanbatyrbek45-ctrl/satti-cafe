@@ -108,9 +108,43 @@ img {
 
 .sidebar {
   grid-area: sidebar;
-  background-color: #f0ebd8;
+  background-color: var(--color-card-bg);
   padding: 1.5rem;
-  border-right: 1px solid var(--color-accent);
+  margin: 2rem 0 2rem 2rem; /* Отступ сверху совпадает с отступом основного контейнера */
+  border-radius: 12px;
+  border: 1px solid var(--color-accent);
+  box-shadow: 0 4px 12px rgba(40, 80, 30, 0.08);
+  align-self: start; /* Выравнивает блок строго по ВЕРХНЕМУ краю сетки */
+}
+
+.sidebar h3 {
+  font-family: var(--font-heading);
+  color: #247a31;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.sidebar p, 
+.sidebar ul {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed rgba(57, 181, 74, 0.2);
+}
+
+.sidebar ul li:last-child {
+  border-bottom: none;
 }
 
 .container {

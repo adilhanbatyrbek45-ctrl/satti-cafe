@@ -4,8 +4,8 @@ This is a simple HTML and CSS website for **Satti Cafe** in Astana.
 
 ## Team
 
-* Batyrbek Adilkhan - Home, Menu
-* Alibek Kantarbay - Contact, Team
+* Batyrbek Adilkhan - Home, Team
+* Alibek Kantarbay - Contact, Menu
 * Dauletkali Boranbay - About Us, Gallery
 
 ## Pages
